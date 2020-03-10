@@ -1,5 +1,6 @@
 def reverse_each_word(s)
-  s.each do |w|
+  words = %w(s)
+  words.each do |w|
   
   puts w.reverse 
   end 
