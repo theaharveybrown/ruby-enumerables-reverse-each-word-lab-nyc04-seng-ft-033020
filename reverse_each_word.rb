@@ -5,7 +5,7 @@ def reverse_each_word(s)
      reversed << w.reverse 
   end 
   s = reversed.join(" ")
-  s
+  puts s
 end 
 
 s = "Hello there, and how are you?"
