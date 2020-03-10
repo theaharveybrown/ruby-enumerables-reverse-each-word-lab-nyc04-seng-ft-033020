@@ -4,6 +4,7 @@ def reverse_each_word(s)
     w = w.reverse 
   end 
   s = w.join(",")
+  s
 end 
 
 s = "Hello there, and how are you?"
