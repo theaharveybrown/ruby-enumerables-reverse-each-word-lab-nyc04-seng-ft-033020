@@ -7,7 +7,7 @@ def reverse_each_word(s)
   # s = reversed.join(" ")
   # puts s
   words = s.split(" ")
-  words.collect {|w| }
+  words.collect {|w| w.reverse}
 end 
 
 s = "Hello there, and how are you?"
