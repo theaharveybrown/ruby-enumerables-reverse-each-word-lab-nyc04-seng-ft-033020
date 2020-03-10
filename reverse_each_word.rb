@@ -1,9 +1,9 @@
 def reverse_each_word(s)
   words = s.split(" ")
   words.each do |w|
-    w.reverse 
+    w = w.reverse 
   end 
-  words
+  s = w.join(",")
 end 
 
 s = "Hello there, and how are you?"
