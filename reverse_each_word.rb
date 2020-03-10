@@ -4,7 +4,7 @@ def reverse_each_word(s)
   
   puts w.reverse 
   end 
-  
+  words
 end 
 
 s = "Hello there, and how are you?"
