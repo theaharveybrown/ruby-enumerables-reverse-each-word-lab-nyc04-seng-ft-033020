@@ -1,5 +1,5 @@
 def reverse_each_word(s)
-  words = %w(s)
+  words = s.split(" ")
   words.each do |w|
   
   puts w.reverse 
